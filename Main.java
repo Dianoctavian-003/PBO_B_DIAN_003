@@ -4,22 +4,22 @@ import java.time.LocalDate;
 class Codelab1 {
     public static void main(String[] args) {
     // membuat scanner untuk membaca input dari pengguna
-    Scanner scanner = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
 
     // meminta input nama
        System.out.print("Masukkan nama: ");
-       String nama = scanner.nextLine();
+       String nama = scan.nextLine();
 
     //meminta input jenis kelamin
     System.out.print("Masukkan jenis kelamin (P/L): ");
-    char jeniskelamin = scanner.next().charAt(0);
+    char jeniskelamin = scan.next().charAt(0);
 
     // meminta input tahun lahir
     System.out.print("Masukkan tahun lahir: ");
-    int tahunlahir = scanner.nextInt();
+    int tahunlahir = scan.nextInt();
 
     // menutup scanner setelah selesai digunakan
-    scanner.close();
+    scan.close();
 
     //mendapatkan tahun saat ini
     int tahunsekarang = LocalDate.now().getYear();
