@@ -1,11 +1,11 @@
 package Codelab.Modul2;
 
-public class Rekening {
+public class RekeningBank {
     String nomorRekening;
     String namaPemilik;
     double saldo;
 
-    public Rekening(String noRek, String nama, double saldoAwal){
+    public RekeningBank(String noRek, String nama, double saldoAwal){
         nomorRekening = noRek;
         namaPemilik = nama;
         saldo = saldoAwal;
